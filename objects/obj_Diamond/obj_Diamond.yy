@@ -1,12 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Player",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_Diamond","path":"objects/obj_Diamond/obj_Diamond.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
-  ],
+  "name": "obj_Diamond",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -30,9 +26,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Player",
-    "path": "sprites/spr_Player/spr_Player.yy",
+    "name": "spr_Diamond",
+    "path": "sprites/spr_Diamond/spr_Diamond.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_Diamond",
+    "path": "sprites/spr_Diamond/spr_Diamond.yy",
+  },
   "visible": true,
 }

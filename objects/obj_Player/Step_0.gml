@@ -20,3 +20,15 @@ if move_x != 0
 	image_xscale = sign(move_x);
 	
 }
+if flor = 3
+{
+	room_goto_next()
+}
+if keyboard_check(vk_anykey)
+{
+	sprite_index=spr_Player_Run
+}
+else
+{
+	sprite_index=spr_Player
+}
