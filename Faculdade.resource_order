@@ -17,6 +17,6 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"Sprite1","order":16,"path":"sprites/Sprite1/Sprite1.yy",},
+    {"name":"spr_Player","order":16,"path":"sprites/spr_Player/spr_Player.yy",},
   ],
 }
