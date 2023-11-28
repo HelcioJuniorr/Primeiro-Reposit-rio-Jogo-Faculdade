@@ -17,6 +17,9 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"spr_Player","order":16,"path":"sprites/spr_Player/spr_Player.yy",},
+    {"name":"obj_Wall","order":1,"path":"objects/obj_Wall/obj_Wall.yy",},
+    {"name":"spr_Wall","order":2,"path":"sprites/spr_Wall/spr_Wall.yy",},
+    {"name":"spr_BackGround","order":3,"path":"sprites/spr_BackGround/spr_BackGround.yy",},
+    {"name":"spr_Player","order":1,"path":"sprites/spr_Player/spr_Player.yy",},
   ],
 }
