@@ -20,7 +20,8 @@ if move_x != 0
 	image_xscale = sign(move_x);
 	
 }
-if flor = 10
+if flor = 8
+
 {
 	room_goto_next()
 }
