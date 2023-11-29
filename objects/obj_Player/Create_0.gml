@@ -1,7 +1,7 @@
-window_set_size(1280,720)
 
-move_speed = 5;
-jump_speed = 16;
+
+move_speed = 3;
+jump_speed = 10;
 
 move_x = 0;
 move_y = 0;

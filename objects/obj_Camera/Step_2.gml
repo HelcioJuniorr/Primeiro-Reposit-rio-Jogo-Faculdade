@@ -1,0 +1,20 @@
+camera_set_view_size(view_camera[0], global.view_height, global.view_width);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

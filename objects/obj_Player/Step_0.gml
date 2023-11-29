@@ -1,7 +1,7 @@
 move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
 move_x = move_x * move_speed;
 
-if place_meeting(x, y+2, obj_Wall)
+if place_meeting(x, y+2, obj_Floor)
 {
 	move_y = 0;
 	
@@ -13,14 +13,14 @@ else if move_y < 10
 	move_y += 1;
 }
 
-move_and_collide(move_x, move_y, obj_Wall);
+move_and_collide(move_x, move_y, obj_Floor );
 
 if move_x != 0
 {
 	image_xscale = sign(move_x);
 	
 }
-if flor = 3
+if flor = 10
 {
 	room_goto_next()
 }
